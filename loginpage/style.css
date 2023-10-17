@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+*{
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	margin:0;
+	padding:0;
+}
+.container{
+	background-image: url('/johannes-blenke-e2ke62ZvSVU-unsplash.jpg');
+	width:100vw;
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	display: flex;
+	justify-content: center;
+    align-items:center;
+}
+/*.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+.form-block{ 
+	height:75%;
+	width: 17rem;
+    /*backdrop-filter: blur(5px);*/
+	background: #ffffff;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+.text p{
+	opacity: 0.5;
+	font-size:10px;
+}
+.text h3{
+	opacity: 0.5;
+    font-size: 14px;
+    font-weight: 300;
+    word-spacing: 1px;
+    letter-spacing: 0.6px;
+    line-height: 22px;
+}
+}
+.text{
+	margin-bottom: 2rem;
+}
+.input-group{
+	display: flex;
+	flex-direction: column;
+	justify-content:start;
+	gap:1rem;
+}
+#username, #password, #submit{
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #7d7d7d;
+}
+input:focus{
+	outline-color: #57a2ff;
+}
+#submit{
+    background: #57a2ff;
+	border:none;
+	color: #fff;
+	font-weight: 800;
+	
+}
+.log-with{
+	text-align: center;
+    margin: 1.5rem 0rem;
+	text-transform: uppercase;
+	opacity: 0.7;
+	font-size:12px;
+}
+.social{
+	display:flex;
+	justify-content: center;
+}
+.fa{
+  padding: 15px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+}
+.fa-google, .fa-github, .fa-linkedin{
+	color: #fff;
+	border-radius: 50%;
+}
+.fa-linkedin{
+	background: #007bb5;
+}
+.fa-google{
+	background: #dd4b39;
+}
+.fa-github{
+	background: #01243B;
+}
+#valid{
+	color: red;
+	margin: 0;
+	font-size:10px;
+	display: none;
+	
+}
+.author{
+	text-align: center;
+    margin-top: 1rem;
+    font-size: 10px;
+    letter-spacing: 1px;
+    opacity: 0.7;
+}
+.author span{
+	text-transform: uppercase;
+}
