@@ -7,7 +7,7 @@ body{
 	padding:0;
 }
 .container{
-	background-image: url('/johannes-blenke-e2ke62ZvSVU-unsplash.jpg');
+	background-image: url('image.jpg');
 	width:100vw;
 	height:100vh;
 	background-position:center;
@@ -41,7 +41,6 @@ body{
     word-spacing: 1px;
     letter-spacing: 0.6px;
     line-height: 22px;
-}
 }
 .text{
 	margin-bottom: 2rem;
